@@ -1,0 +1,25 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "description": "rest-api-ts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc -w",
+    "dev": "npx nodemon",
+    "build": "npx tsc"
+  },
+  "author": "adesettiawan",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.10.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.3.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
